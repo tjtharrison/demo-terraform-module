@@ -1,18 +1,17 @@
 {
-  "name": "terraform-demo-module",
-  "description": "Demonstration terraform module.",
   "private": true,
   "devDependencies": {
-    "@semantic-release/github": "^8.0.4",
-    "semantic-release": "^19.0.3"
+    "@semantic-release/github": "^9.0.3",
+    "semantic-release": "^21.0.5"
   },
   "release": {
-    "branches": ["main"]
+    "branches": [
+      "main"
+    ]
   },
   "plugins": [
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",
-    "@semantic-release/github",
-    "@semantic-release/npm"
+    "@semantic-release/github"
   ]
 }
