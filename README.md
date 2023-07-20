@@ -31,6 +31,7 @@ No modules.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
+| <a name="input_demo_example"></a> [demo\_example](#input\_demo\_example) | The demo example | `string` | `"demo"` | no |
 | <a name="input_my_ip"></a> [my\_ip](#input\_my\_ip) | The IP address to allow SSH access from | `string` | n/a | yes |
 | <a name="input_name"></a> [name](#input\_name) | The name of the instance | `string` | `"my-terraform-instance"` | no |
 
